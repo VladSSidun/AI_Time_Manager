@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#4f46e5"/>
+    </linearGradient>
+  </defs>
+  <!-- Clock circle -->
+  <circle cx="70" cy="50" r="38" fill="none" stroke="url(#g1)" stroke-width="5"/>
+  <!-- Clock hands -->
+  <line x1="70" y1="50" x2="70" y2="24" stroke="#1a1a2e" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="70" y1="50" x2="88" y2="50" stroke="#1a1a2e" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="70" cy="50" r="4" fill="#1a1a2e"/>
+  <!-- Clock tick marks -->
+  <line x1="70" y1="14" x2="70" y2="18" stroke="url(#g1)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="106" y1="50" x2="102" y2="50" stroke="url(#g1)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="70" y1="86" x2="70" y2="82" stroke="url(#g1)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="34" y1="50" x2="38" y2="50" stroke="url(#g1)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Brain / neural network (left side) -->
+  <!-- Main brain outline -->
+  <path d="M45 42 C35 38 28 44 30 54 C26 56 26 64 32 66 C30 74 38 80 46 76 C50 82 62 80 62 72 C68 72 68 64 64 60 C68 56 66 46 60 44 C58 36 48 34 45 42Z" fill="none" stroke="url(#g2)" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Neural nodes -->
+  <circle cx="42" cy="52" r="3.5" fill="url(#g2)"/>
+  <circle cx="54" cy="48" r="3.5" fill="url(#g1)"/>
+  <circle cx="50" cy="62" r="3.5" fill="url(#g2)"/>
+  <circle cx="38" cy="64" r="3.5" fill="url(#g1)"/>
+  <!-- Neural connections -->
+  <line x1="42" y1="52" x2="54" y2="48" stroke="url(#g1)" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="54" y1="48" x2="50" y2="62" stroke="url(#g2)" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="50" y1="62" x2="38" y2="64" stroke="url(#g1)" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="42" y1="52" x2="38" y2="64" stroke="url(#g2)" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
