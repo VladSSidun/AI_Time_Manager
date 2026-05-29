@@ -8,14 +8,6 @@ venv/
 *.sqlite3
 .idea/
 .vscode/
+z
+docs/
 
-# Інструкції та налаштування для IDE/розробки (не для репозиторію)
-CLAUDE.md
-CLAUDE.MD.txt
-*.claude-instructions
-instruction.md
-instruction.md.txt
-.claude/
-fix_commits.py
-fix_history.py
-fix_files.py
